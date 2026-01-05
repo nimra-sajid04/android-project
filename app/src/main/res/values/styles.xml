@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ===============================
+         LIGHT THEME
+         =============================== -->
+    <style name="Theme.OnlineShop.Light"
+        parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorSecondary">@color/colorAccent</item>
+
+        <item name="android:windowBackground">@color/lightBackground</item>
+        <item name="android:textColorPrimary">@color/textPrimary</item>
+        <item name="android:textColorSecondary">@color/textSecondary</item>
+        <item name="colorOnBackground">@color/textPrimary</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+
+    </style>
+
+
+
+    <!-- Toolbar text & icons color -->
+    <style name="ToolbarTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+    <!-- Menu dropdown background & text (FIXED VALUE) -->
+    <style name="ToolbarPopupTheme" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="android:textColorPrimary">@color/black</item>
+    </style>
+
+    <!-- ===============================
+         DARK THEME
+         =============================== -->
+    <style name="Theme.OnlineShop.Dark"
+        parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!-- FIX: use dark background, NOT pure black -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorSecondary">@color/colorAccent</item>
+
+        <item name="android:windowBackground">@color/darkBackground</item>
+        <item name="android:textColorPrimary">@color/darkTextPrimary</item>
+        <item name="android:textColorSecondary">@color/darkTextSecondary</item>
+        <item name="colorOnBackground">@color/darkTextPrimary</item>
+
+        <item name="colorOnPrimary">@color/white</item>
+
+    </style>
+
+</resources>
