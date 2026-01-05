@@ -5,7 +5,8 @@
 - **Name:** Nimra Sajid  
 - **Registration No:** 23-ARID-846  
 - **Subject:** App Development  
-- **Submitted To:** Sir Azhar  
+- **Submitted To:** Sir Azhar
+- **Project Screenshots Document:** [Document](https://github.com/nimra-sajid04/android-project/blob/master/Assignment%203%20and%204.docx)
 
 ---
 
